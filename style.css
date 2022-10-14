@@ -1,0 +1,13 @@
+body {
+    height: 95vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    cursor: pointer;
+    margin: 5px;
+}
+
