@@ -77,7 +77,7 @@ resetBtn.addEventListener('click', () => {
     if (timeRunning == false && (!stop) ) {
         console.log('work');
         warningText.style.opacity = '100%'
-        warningText.textContent = "Time already stopped"
+        warningText.textContent = "Time is already 0.00"
         setTimeout(() => {
             warningText.style.opacity = '0%'
         }, 1500);
