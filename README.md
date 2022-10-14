@@ -16,17 +16,17 @@ starting form a particular point. The entire time, I want to
 track the runners position.
 
 <= Code =>
-1. Clicking on "start", defines the value of "startingPoint"
-2.1 Clicking on "stop", defines the the value of "stoppingPoint"
-2.2 The difference between "startingPoint" and "stoppingPoint" is
+1. Clicking on "startBtn", defines the value of "start"
+2.1 Clicking on "stop", defines the the value of "stop"
+2.2 The difference between "start" and "stop" is
     calculated and stored into "timePassed"
-2.3 The value of "timePassed" is now passed to "startingPoint"
+2.3 The value of "timePassed" is now passed to "start"
 
-3. If "start" is clicked and the "startingPoint" value is already defined,
+3. If "startBtn" is clicked and the "start" value is already defined,
    we start measuring once again, this time with the prefix of the already
    defined value.
 
 4. Clicking on "reset" while the timer is running stops the stopwatch
-and resets the "startingPoint" to null.
+and resets the "start" to null.
 4.1 Clicking on "reset" after the stopwatch was stopped resets resets the 
-"startingPoint" to null.
+"start" to null.
