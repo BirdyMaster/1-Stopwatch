@@ -4,10 +4,41 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 button {
+    box-sizing: border-box;
     cursor: pointer;
     margin: 5px;
+
+    height: 35px;
+    width: 70px;
+    border-radius: 5px;
+
+    background-color: rgb(243, 243, 243);
+    border: none;
+    transition: 150ms;
+
+    font-size: 15px;
+    
 }
 
+button:hover {
+    background-color: rgb(224, 224, 224);
+}
+
+.timeText {
+    padding: 50px;
+    width: 270px;
+
+    border-radius: 10px;
+    background-color: rgb(221, 221, 255);
+    font-size: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
